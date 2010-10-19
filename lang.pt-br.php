@@ -19,7 +19,7 @@
 		// Missing translations
 
 		'A database error occurred while attempting to reorder.' => 
-		false,
+		'Ocorreu um erro no banco de dados ao tentar reorganizar.',
 
 		'%1$s &ndash; %2$s' => 
 		false,
@@ -52,13 +52,13 @@
 		'Criar um novo utilitário',
 
 		'An error occurred while processing this form. <a href="#error">See below for details.</a>' => 
-		false,
+		'Ocorreu um erro ao processar este formulário. <a href="#error">Veja os detalhes abaixo.</a>',
 
 		'Data source updated at %1$s. <a href="%2$s">Create another?</a> <a href="%2$s">View all Data sources</a>' => 
-		false,
+		'Data source criado às %1$s. <a href="%2$s">Criar outro?</a> <a href="%2$s">Ver todos os Data sources</a>',
 
-		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data source</a>' => 
-		false,
+		'Data source created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Data sources</a>' => 
+		'Data source criado às %1$s. <a href="%2$s">Criar outro?</a> <a href="%3$s">Ver todos os Data sources</a>',
 
 		'%1$s &ndash; %2$s &ndash; %3$s' => 
 		false,
@@ -91,19 +91,19 @@
 		'Navegação',
 
 		'Custom XML' => 
-		false,
+		'XML Personalizado',
 
 		'dynamic_xml' => 
 		false,
 
 		'Dynamic XML' => 
-		false,
+		'XML Dinâmico',
 
 		'static_xml' => 
 		false,
 
 		'Static XML' => 
-		false,
+		'XML Estático',
 
 		'Sections' => 
 		'Seções',
@@ -115,10 +115,10 @@
 		'Resultados de filtro',
 
 		'Use <code>{$param}</code> syntax to filter by page parameters.' => 
-		false,
+		'Use a sintaxe <code>{$param}</code> para utilizar filtros por parâmetros de página.',
 
 		'Filter %s by' => 
-		false,
+		'Filtrar %s por',
 
 		'System ID' => 
 		false,
@@ -151,28 +151,28 @@
 		'Filtrar navegação por',
 
 		'Parent Page' => 
-		false,
+		'Página Mãe',
 
 		'Page Type' => 
-		false,
+		'Tipo da página',
 
 		'Sorting and Limiting' => 
-		false,
+		'Ordenação e Limitação',
 
 		'Use <code>{$param}</code> syntax to limit by page parameters.' => 
-		false,
+		'Use a sintaxe <code>{$param}</code> para limitar por parâmetros de página.',
 
 		'Sort By' => 
-		false,
+		'Ordenar por',
 
 		'Author ID' => 
-		false,
+		'ID do Autor',
 
 		'Status' => 
 		false,
 
 		'Page ID' => 
-		false,
+		'ID da Página',
 
 		'Handle' => 
 		false,
@@ -181,7 +181,7 @@
 		false,
 
 		'System Date' => 
-		false,
+		'Data do Sistema',
 
 		'ascending' => 
 		'ascendente',
@@ -199,22 +199,22 @@
 		'Mostrar página %s de resultados',
 
 		'Required URL Parameter <i>Optional</i>' => 
-		false,
+		'Parâmetro de URL requerido <i>Opcional</i>',
 
 		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
 		false,
 
 		'%s Redirect to 404 page when no results are found' => 
-		false,
+		'Redireciona para 404 quando nenhum resultado for encontrado',
 
 		'Output Options' => 
-		false,
+		'Opções de Saída',
 
 		'Parameter Output' => 
-		false,
+		'Parâmetro de Saída',
 
 		'Use Field' => 
-		false,
+		'Utilizar campo',
 
 		'None' => 
 		'Nenhum',
@@ -229,7 +229,7 @@
 		false,
 
 		'XML Output' => 
-		false,
+		'Saída em XML',
 
 		'Group By' => 
 		'Agrupar por',
@@ -250,7 +250,7 @@
 		false,
 
 		'Namespace Declarations <i>Optional</i>' => 
-		false,
+		'Declarações de Namespace <i>Opcional</i>',
 
 		'URI' => 
 		false,
@@ -277,7 +277,7 @@
 		false,
 
 		'Failed to delete <code>%s</code>. Please check permissions.' => 
-		false,
+		'Erro ao deletar <code>%s</code>. Favor chegar as permissões.',
 
 		'This is a required field' => 
 		'Este é um campo de preenchimento obrigatório',
@@ -670,13 +670,13 @@
 		'Alguns erros foram encontrados durante a tentativa de salvar.',
 
 		'The Section you are looking for, <code>%s</code>, could not be found.' => 
-		false,
+		'A seção que você procura, <code>%s</code>, não pode ser encontrada.',
 
 		'Unknown Entry' => 
 		'Entrada desconhecida',
 
 		'The entry you are looking for could not be found.' => 
-		false,
+		'O registro que você estava procurando não pode ser encontrado.',
 
 		'Entry updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Entries</a>' => 
 		'Registro atualizado %1$s. <a href="%2$s">Criar outro?</a> <a href="%3$s">Ver todas os registros</a>',
@@ -718,7 +718,7 @@
 		'Confirmar senha',
 
 		'Leave password fields blank to keep the current password' => 
-		false,
+		'Deixe os campos de senha em branco para manter a senha atual',
 
 		'%1$s Allow remote login via <a href="%2$s">%2$s</a>' => 
 		'%1$s Permitir login remoto atráves do link <a href="%2$s">%2$s</a>',
@@ -742,7 +742,7 @@
 		'Senha errada. Digite a senha antiga para mudá-lo.',
 
 		'Wrong password. Enter old one to change email address.' => 
-		false,
+		'Senha incorreta. Utilize o antigo para alterar o endereço de email.',
 
 		'Extensions' => 
 		'Extensões',
@@ -898,7 +898,7 @@
 		false,
 
 		'%s Show column' => 
-		false,
+		'%s Exibir coluna',
 
 		'Placement' => 
 		false,
@@ -910,7 +910,7 @@
 		false,
 
 		'Formatting' => 
-		false,
+		'Formatação',
 
 		'Validation Rule <i>Optional</i>' => 
 		false,
@@ -958,10 +958,10 @@
 		false,
 
 		'Cats' => 
-		false,
+		'Gatos',
 
 		'Dogs' => 
-		false,
+		'Cachorros',
 
 		'Weasels' => 
 		false,
@@ -1063,61 +1063,61 @@
 		false,
 
 		'Website Name' => 
-		false,
+		'Nome do Website',
 
 		'Environment Settings' => 
 		false,
 
 		'Symphony is ready to be installed at the following location.' => 
-		false,
+		'Symphony está pronto para ser instalado na seguinte localização.',
 
 		'Root Path' => 
-		false,
+		'Diretório Raiz',
 
 		'Website Preferences' => 
-		false,
+		'Preferências do Website',
 
 		'Date and Time' => 
-		false,
+		'Data e Hora',
 
 		'Customise how Date and Time values are displayed throughout the Administration interface.' => 
 		false,
 
 		'Region' => 
-		false,
+		'Região',
 
 		'Date Format' => 
-		false,
+		'Formato da Data',
 
 		'Time Format' => 
-		false,
+		'Formato do Tempo',
 
 		'Database Connection' => 
-		false,
+		'Conexão do Banco de Dados',
 
 		'Please provide Symphony with access to a database.' => 
 		false,
 
 		'Database' => 
-		false,
+		'Banco e Dados',
 
 		'Advanced Configuration' => 
-		false,
+		'Configuração Avançada',
 
 		'Leave these fields unless you are sure they need to be changed.' => 
 		false,
 
 		'Host' => 
-		false,
+		'Servidor',
 
 		'Port' => 
-		false,
+		'Porta',
 
 		'Table Prefix' => 
-		false,
+		'Prefixo das tabelas',
 
 		'Use compatibility mode' => 
-		false,
+		'Usar modo de compatibilidade',
 
 		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
 		false,
@@ -1129,13 +1129,13 @@
 		false,
 
 		'Files' => 
-		false,
+		'Arquivos',
 
 		'Directories' => 
-		false,
+		'Diretórios',
 
 		'User Information' => 
-		false,
+		'Informações do Usuário',
 
 		'Once installed, you will be able to login to the Symphony admin with these user details.' => 
 		false,
@@ -1147,7 +1147,7 @@
 		false,
 
 		'Install Symphony' => 
-		false,
+		'Instalar Symphony',
 
 		'Make sure that you delete <code>' => 
 		false,
@@ -1156,7 +1156,7 @@
 		false,
 
 		'Version %s' => 
-		false,
+		'Versão %s',
 
 		'Outstanding Requirements' => 
 		false,
@@ -1192,7 +1192,7 @@
 		false,
 
 		'Update Symphony' => 
-		false,
+		'Atualizar o Symphony',
 
 		'You are already using the most recent version of Symphony. There is no need to run the installer, and can be safely deleted.' => 
 		false,
@@ -1207,7 +1207,7 @@
 		false,
 
 		'XML returned is invalid.' => 
-		false,
+		'XML returnado é inválido.',
 
 		'Error creating field object with id %1$d, for filtering in data source "%2$s". Check this field exists.' => 
 		false,
@@ -1216,7 +1216,7 @@
 		false,
 
 		'Section is invalid' => 
-		false,
+		'Seção inválida',
 
 		'Invalid Entry ID specified. Could not create Entry object.' => 
 		false,

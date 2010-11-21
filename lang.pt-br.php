@@ -583,10 +583,10 @@
 		false,
 
 		'An email containing a customised login link has been sent. It will expire in 2 hours.' => 
-		false,
+		'Um email contendo um link customizado para login foi enviado. Ele irá expirar em 2 horas.',
 
 		'Enter your email address to be sent a remote login link with further instructions for logging in.' => 
-		false,
+		'Digite seu email para que seja enviado um link para login remoto com as instruções para login.',
 
 		'Email Address' => 
 		'Endereço de Email',
@@ -652,7 +652,7 @@
 		'Página %1$s de %2$s',
 
 		'Viewing %1$s - %2$s of %3$s entries' => 
-		false,
+		'Visualizando %1$s - %2$s de %3$s registros',
 
 		'Next &rarr;' => 
 		'Próximo &rarr;',
@@ -1042,19 +1042,19 @@
 		false,
 
 		'The password and confirmation did not match. Please retype your password.' => 
-		false,
+		'A senha e sua confirmação são diferentes. Por favor, redigite sua senha.',
 
 		'This is not a valid email address. You must provide an email address since you will need it if you forget your password.' => 
-		false,
+		'Este email não é válido. Você precisa fornecer um email, já que você precisará caso esqueça sua senha.',
 
 		'You must enter a Username. This will be your Symphony login information.' => 
-		false,
+		'Você precisa digitar um nome de usuário. Ela fará parte de seu login no Symphony.',
 
 		'You must enter a Password. This will be your Symphony login information.' => 
-		false,
+		'Você precisa digitar uma senha. Ela fará parte de seu login no Symphony.',
 
 		'You must enter your name.' => 
-		false,
+		'Você precisa preencher com seu nome.',
 
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
 		false,
@@ -1096,7 +1096,7 @@
 		'Conexão do Banco de Dados',
 
 		'Please provide Symphony with access to a database.' => 
-		false,
+		'Por favor, forneça ao Symphony o acesso à base de dados.',
 
 		'Database' => 
 		'Banco e Dados',
@@ -1561,13 +1561,13 @@
 		// Missing translations
 
 		'Existing Installation' => 
-		false,
+		'Instalação Existente',
 
 		'Install Symphony <em>Version %s</em>' => 
-		false,
+		'Instalar Symphony <em>Versão %s</em>',
 
 		'It appears that Symphony has already been installed at this location.' => 
-		false,
+		'Parece que Symphony já foi instalado neste endereço.',
 
 		'Export Ensemble cannot be installed, since the "<a href="http://php.net/manual/en/book.zip.php">ZipArchive</a>" class is not available. Ensure that PHP was compiled with the <code>--enable-zip</code> flag.' => 
 		false,
@@ -1585,7 +1585,7 @@
 		// Missing translations
 
 		'Error reading external image <code>%s</code>. Please check the URI.' => 
-		false,
+		'Erro ao ler a imagem externa <code>%s</code>. Por favor, verifique a URI.',
 
 		'Error writing to temporary file <code>%s</code>.' => 
 		false,
@@ -1597,19 +1597,19 @@
 		false,
 
 		'Unsupported image type. Supported types: GIF, JPEG and PNG' => 
-		false,
+		'Tipo de imagem não suportado. Tipos aceitos: GIF, JPEG and PNG',
 
 		'Invalid image resource supplied' => 
 		false,
 
 		'Error: Connecting to that external site is not permitted.' => 
-		false,
+		'Erro: conexão com este site externo não é permitida.',
 
 		'Image <code>%s</code> could not be found.' => 
-		false,
+		'Imagem <code>%s</code> não pode ser encontrada.',
 
 		'Error generating image' => 
-		false,
+		'Erro ao gerar a imagem',
 
 	);
 	
@@ -1759,10 +1759,10 @@
 		// Missing translations
 
 		'%s Disable sorting of other columns when enabled' => 
-		false,
+		'%s Desabilitar ordenação de outras colunas quando ativado',
 
 		'%s Hide this field on publish page' => 
-		false,
+		'%s Esconder este campo na página de publicação',
 
 	);
 	
@@ -1834,13 +1834,13 @@
 		false,
 
 		'Options' => 
-		false,
+		'Opções',
 
 		'Limit to the %s most recent entries' => 
-		false,
+		'Buscar apenas as %s atualizações mais recentes',
 
 		'Allow selection of multiple options' => 
-		false,
+		'Permitir seleção de múltiplas opções',
 
 	);
 	

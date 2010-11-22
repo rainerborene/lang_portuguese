@@ -178,7 +178,7 @@
 		false,
 
 		'Sort Order' => 
-		false,
+		'Tipo de Ordenação',
 
 		'System Date' => 
 		'Data do Sistema',
@@ -259,7 +259,7 @@
 		false,
 
 		'Use an XPath expression to select which elements from the source XML to include.' => 
-		false,
+		'Use uma expressão XPath para selecionar quais elementos do XML fonte para incluir.',
 
 		'Body' => 
 		false,
@@ -301,16 +301,16 @@
 		'Um número de página deve ser definido',
 
 		'A Data source with the name <code>%s</code> name already exists' => 
-		false,
+		'Um Data source com o nome <code>%s</code> já existe',
 
 		'Failed to write Data source to <code>%s</code>. Please check permissions.' => 
 		false,
 
 		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-		false,
+		'Evento atualizado às %1$s. <a href="%2$s">Criar outro?</a> <a href="%3$s">Ver todos os Eventos</a>',
 
 		'Event created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
-		false,
+		'Evento criado às %1$s. <a href="%2$s">Criar outro?</a> <a href="%3$s">Ver todos os Eventos</a>',
 
 		'Filter Rules' => 
 		'Regras de Filtragem',
@@ -358,7 +358,7 @@
 		false,
 
 		'Entry encountered errors when saving.' => 
-		false,
+		'Registro encontrou erros enquanto era salvo.',
 
 		'The following is an example of what is returned if any filters fail:' => 
 		false,
@@ -493,7 +493,7 @@
 		'Uma página com este título já existe',
 
 		'A page with that handle already exists' => 
-		false,
+		'Uma página com este handle já existe',
 
 		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
 		false,
@@ -502,7 +502,7 @@
 		'A página não pode ser excluída porque ela não existe.',
 
 		'Page could not be deleted because it has children.' => 
-		false,
+		'Página não pode ser deletada pois ela possui páginas-filhas.',
 
 		'One or more pages could not be deleted. Please check permissions on <code>/workspace/pages</code>.' => 
 		false,
@@ -637,7 +637,7 @@
 		'Criar um novo registro',
 
 		'Sort by %1$s %2$s' => 
-		false,
+		'Ordenar por %1$s %2$s',
 
 		'Set %s' => 
 		false,

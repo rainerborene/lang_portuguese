@@ -202,7 +202,7 @@
 		'Parâmetro de URL requerido <i>Opcional</i>',
 
 		'An empty result will be returned when this parameter does not have a value. Do not wrap the parameter with curly-braces.' => 
-		false,
+		'Um resultado vazio será retornado quando este parâmetro não conter nenhum valor. Não coloque o parâmetro entre chaves.',
 
 		'%s Redirect to 404 page when no results are found' => 
 		'Redireciona para 404 quando nenhum resultado for encontrado',
@@ -223,10 +223,10 @@
 		'Tipo de usuário',
 
 		'System Author' => 
-		false,
+		'Autor do Sistema',
 
 		'The parameter <code id="output-param-name">$ds-%s</code> will be created with this field\'s value for XSLT or other data sources to use.' => 
-		false,
+		'O parâmetro <code id="output-param-name">$ds-%s</code> será criado com o valor deste campo para usar no XSLT ou em outro data source.',
 
 		'XML Output' => 
 		'Saída em XML',
@@ -247,7 +247,7 @@
 		false,
 
 		'Use <code>{$param}</code> syntax to specify dynamic portions of the URL.' => 
-		false,
+		'Use a sintaxe <code>{$param}</code> para especificar porções dinâmicas do URL.',
 
 		'Namespace Declarations <i>Optional</i>' => 
 		'Declarações de Namespace <i>Opcional</i>',
@@ -304,7 +304,7 @@
 		'Um Data source com o nome <code>%s</code> já existe',
 
 		'Failed to write Data source to <code>%s</code>. Please check permissions.' => 
-		false,
+		'Falhou em escrever o Data source em <code>%s</code>. Por favor cheque as permissões.',
 
 		'Event updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Events</a>' => 
 		'Evento atualizado às %1$s. <a href="%2$s">Criar outro?</a> <a href="%3$s">Ver todos os Eventos</a>',
@@ -316,16 +316,16 @@
 		'Regras de Filtragem',
 
 		'Admin Only' => 
-		false,
+		'Administrador Apenas',
 
 		'Send Email' => 
-		false,
+		'Enviar Email',
 
 		'Allow Multiple' => 
-		false,
+		'Permitir Múltiplo',
 
 		'This event will not be processed if any of these rules return true.' => 
-		false,
+		'Este evento não será processado se qualquer uma destas regras retornar verdadeira.',
 
 		'Description' => 
 		'Descrição',
@@ -343,49 +343,49 @@
 		'Um evento com o nome <code>%s</code> já existe',
 
 		'Success and Failure XML Examples' => 
-		false,
+		'Exemplos de XML de Sucesso e Falha',
 
 		'When saved successfully, the following XML will be returned:' => 
-		false,
+		'Quando for salvo com sucesso, o seguinte XML será retornado:',
 
 		'Entry [created | edited] successfully.' => 
-		false,
+		'Registro [criado | editado] com sucesso.',
 
 		'When an error occurs during saving, due to either missing or invalid fields, the following XML will be returned' => 
-		false,
+		'Quando ocorrer um erro ao salvar, devido a campos vazios ou inválidos, o seguinte XML será retornado',
 
 		' (<b>Notice that it is possible to get mixtures of success and failure messages when using the "Allow Multiple" option</b>)' => 
-		false,
+		' (<b>Note que é possível obter misturas de mensagens de sucesso e falha quando estiver usando opção "Permitir Múltiplo"</b>)',
 
 		'Entry encountered errors when saving.' => 
-		'Registro encontrou erros enquanto era salvo.',
+		'O registro encontrou erros enquanto era salvo.',
 
 		'The following is an example of what is returned if any filters fail:' => 
-		false,
+		'O seguinte é um exemplo do que é retornado se algum filtro falhar:',
 
 		'Recipient username was invalid' => 
-		false,
+		'Recipiente username é inválido',
 
 		'Example Front-end Form Markup' => 
-		false,
+		'Exemplo de marcação do formulário no Front-end',
 
 		'This is an example of the form markup you can use on your frontend:' => 
-		false,
+		'Este é um exemplo de marcação do formulário que você pode usar no seu frontend:',
 
 		'Submit' => 
 		'Enviar',
 
 		'To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:' => 
-		false,
+		'Para editar um registro existente, inclua o ID do registro no formulário. Isto é melhor usando um campo oculto como a seguir:',
 
 		'To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:' => 
-		false,
+		'Para redirecionar para uma diferente localização ao salvar com sucesso, inclua a localização de redirecionamento no formulário. Isto é melhor usando um campo oculto como a seguir, onde o valor é o URL a ser redirecionado:',
 
 		'Send Email Filter' => 
-		false,
+		'Filtro de envio de email',
 
 		'The send email filter, upon the event successfully saving the entry, takes input from the form and send an email to the desired recipient. <b>This filter currently does not work with the "Allow Multiple" option.</b> The following are the recognised fields:' => 
-		false,
+		'O filtro de envio de email, ao salvar o registro com sucesso, captura a entrada do formulário e envia um email para o destinatário desejado. <b>Este filtro atualmente não funciona com a opção "Permitir Múltiplos".</b> Os seguintes são os campos reconhecidos:',
 
 		'Optional' => 
 		'Opcional',
@@ -394,13 +394,13 @@
 		false,
 
 		'All of these fields can be set dynamically using the exact field name of another field in the form as shown below in the example form:' => 
-		false,
+		'Todos estes campos podem ser definidos dinamicamente usando o nome do campo exato de outro campo no formulário como mostrado a seguir no exemplo:',
 
 		'Message' => 
 		'Mensagem',
 
 		'Failed to write Event to <code>%s</code>. Please check permissions.' => 
-		false,
+		'Falhou em escrever o Evento em <code>%s</code>. Por favor cheque as permissões.',
 
 		'Pages' => 
 		'Páginas',
@@ -418,7 +418,7 @@
 		false,
 
 		'<acronym title="Universal Resource Locator">URL</acronym> Parameters' => 
-		false,
+		'Parâmetros do <acronym title="Universal Resource Locator">URL</acronym>',
 
 		'Type' => 
 		'Tipo',
@@ -433,19 +433,19 @@
 		'Aplicar',
 
 		'%s %s at %s. <a href="%s">View all %s</a>' => 
-		false,
+		'%s %s at %s. <a href="%s">Ver todos %s</a>',
 
 		'Page' => 
 		'Página',
 
 		'Body is a required field.' => 
-		false,
+		'Body é um campo obrigatório',
 
 		'This document is not well formed. The following error was returned: <code>%s</code>' => 
-		false,
+		'Este documento não está bem formado. O seguinte erro foi retornado: <code>%s</code>',
 
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
-		false,
+		'A Utility não pôde ser escrita no disco. Por favor cheque as permissões em <code>/workspace/utilities</code>.',
 
 		'Page not found' => 
 		'Página não encontrada',
@@ -454,19 +454,19 @@
 		'A página que você solicitou para editar não existe.',
 
 		'%s %s at %s. <a href="%s">Create another?</a> <a href="%s">View all %s</a>' => 
-		false,
+		'%s %s at %s. <a href="%s">Criar outro?</a> <a href="%s">Ver todos %s</a>',
 
 		'Page Settings' => 
-		false,
+		'Configurações da Página',
 
 		'URL Handle' => 
 		false,
 
 		'URL Parameters' => 
-		false,
+		'Parâmetros do URL',
 
 		'Page Resources' => 
-		false,
+		'Recursos da Página',
 
 		'Create Page' => 
 		'Criar página',
@@ -487,7 +487,7 @@
 		'Uma página do tipo 403 já existe.',
 
 		'Page could not be written to disk. Please check permissions on <code>/workspace/pages</code>.' => 
-		false,
+		'A Página não pôde ser escrita no disco. Por favor cheque as permissões em <code>/workspace/pages</code>.',
 
 		'A page with that title already exists' => 
 		'Uma página com este título já existe',
@@ -496,7 +496,7 @@
 		'Uma página com este handle já existe',
 
 		'Unknown errors occurred while attempting to save. Please check your <a href="%s">activity log</a>.' => 
-		false,
+		'Ocorreu um erro desconhecido enquanto tentava salvar. Por favor cheque seu <a href="%s">log de atividades</a>.',
 
 		'Page could not be deleted because it does not exist.' => 
 		'A página não pode ser excluída porque ela não existe.',
@@ -505,7 +505,7 @@
 		'Página não pode ser deletada pois ela possui páginas-filhas.',
 
 		'One or more pages could not be deleted. Please check permissions on <code>/workspace/pages</code>.' => 
-		false,
+		'Uma ou mais páginas não puderam ser apagadas. Por favor cheque as permissões em <code>/workspace/pages</code>.',
 
 		'Create a section' => 
 		'Criar seção',
@@ -553,16 +553,16 @@
 		'Dois campos personalizados possuem o mesmo nome. Todos os nomes de elementos devem ser únicos.',
 
 		'There is already a field of type <code>%s</code>. There can only be one per section.' => 
-		false,
+		'Já existe um campo do tipo <code>%s</code>. Só é possível haver um por seção.',
 
 		'An unknown database occurred while attempting to create the section.' => 
 		false,
 
 		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		false,
+		'Utility atualizada às %1$s. <a href="%2$s">Create outra?</a> <a href="%3$s">Ver todas Utilities</a>',
 
 		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		false,
+		'Utility criada às %1$s. <a href="%2$s">Create outra?</a> <a href="%3$s">Ver todas Utilities</a>',
 
 		'new' => 
 		'novo',
@@ -592,7 +592,7 @@
 		'Endereço de Email',
 
 		'There was a problem locating your account. Please check that you are using the correct email address.' => 
-		false,
+		'Houve um problema ao localizar sua conta. Por favor cheque se você está usando o endereço de email correto.',
 
 		'New Password' => 
 		'Nova senha',
@@ -601,7 +601,7 @@
 		'Confirmar nova senha',
 
 		'The supplied password was rejected. Make sure it is not empty and that password matches password confirmation.' => 
-		false,
+		'A senha fornecida foi rejeitada. Certifique-se de que não está vazia e de que a senha combine com a confirmação de senha.',
 
 		'Password' => 
 		'Senha',

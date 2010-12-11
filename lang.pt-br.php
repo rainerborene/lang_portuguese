@@ -445,7 +445,7 @@
 		'Este documento não está bem formado. O seguinte erro foi retornado: <code>%s</code>',
 
 		'Utility could not be written to disk. Please check permissions on <code>/workspace/utilities</code>.' => 
-		'A Utility não pôde ser escrita no disco. Por favor cheque as permissões em <code>/workspace/utilities</code>.',
+		'O utilitário não pôde ser escrita no disco. Por favor cheque as permissões em <code>/workspace/utilities</code>.',
 
 		'Page not found' => 
 		'Página não encontrada',
@@ -559,10 +559,10 @@
 		false,
 
 		'Utility updated at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Utility atualizada às %1$s. <a href="%2$s">Create outra?</a> <a href="%3$s">Ver todas Utilities</a>',
+		'Utilitário atualizado às %1$s. <a href="%2$s">Create outra?</a> <a href="%3$s">Ver todos Utilitários</a>',
 
 		'Utility created at %1$s. <a href="%2$s">Create another?</a> <a href="%3$s">View all Utilities</a>' => 
-		'Utility criada às %1$s. <a href="%2$s">Create outra?</a> <a href="%3$s">Ver todas Utilities</a>',
+		'Utilitário criado às %1$s. <a href="%2$s">Create outra?</a> <a href="%3$s">Ver todos Utilitários</a>',
 
 		'new' => 
 		'novo',
@@ -661,7 +661,7 @@
 		'Último',
 
 		'It looks like your trying to create an entry. Perhaps you want fields first? <a href="%s">Click here to create some.</a>' => 
-		false,
+		'Parece que você está tentando criar um registro. Talvez você queira campos primeiro? <a href="%s">Clique aqui para criar alguns.</a>',
 
 		'Create Entry' => 
 		'Criar registro',
@@ -685,7 +685,7 @@
 		'Registro criado %1$s. <a href="%2$s">Criar outro?</a> <a href="%3$s">Ver todos os registros</a>',
 
 		'It looks like your trying to create an entry. Perhaps you want custom fields first? <a href="%s">Click here to create some.</a>' => 
-		false,
+		'Parece que você está tentando criar um registro. Talvez você queira campos personalizados primeiro? <a href="%s">Clique aqui para criar alguns.</a>',
 
 		'Delete this entry' => 
 		'Excluir este registro',
@@ -772,31 +772,31 @@
 		'Preferências',
 
 		'The Symphony configuration file, <code>/manifest/config.php</code>, is not writable. You will not be able to save changes to preferences.' => 
-		false,
+		'O arquivo de configuração do Symphony, <code>/manifest/config.php</code>, não permite escrita. Você não será capaz de salvar as alterações das preferências.',
 
 		'Preferences saved.' => 
 		'Preferências salvas.',
 
 		'Database Error' => 
-		false,
+		'Erro de banco de dados',
 
 		'Symphony Database Error' => 
-		false,
+		'Erro de banco de dados do Symphony',
 
 		'XSLT Processing Error' => 
-		false,
+		'Erro de processamento de XSLT',
 
 		'This page could not be rendered due to the following XSLT processing errors.' => 
-		false,
+		'Esta página não pôde ser gerada devido aos seguintes erros de processamento de XSLT.',
 
 		'<a href="%s" title="Show debug view">Compile</a>' => 
-		false,
+		'<a href="%s" title="Mostrar visualização de debug">Compilar</a>',
 
 		'General' => 
 		'Geral',
 
 		'<a href="%1$s" title="Show debug view for %2$s">Line %3$d</a>' => 
-		false,
+		'<a href="%1$s" title="Mostrar visualização de debug para %2$s">Linha %3$d</a>',
 
 		'Line %s' => 
 		'Linha %s',
@@ -817,10 +817,10 @@
 		'Você não tem permissão para acessar esta seção.',
 
 		'Could not add directory "%s".' => 
-		false,
+		'Não foi possível adicionar o diretório "%s".',
 
 		'Could not add file "%s".' => 
-		false,
+		'Não foi possível adicionar o arquivo "%s".',
 
 		'First name is required' => 
 		'Primeiro nome é obrigatório',
@@ -856,7 +856,7 @@
 		'Não foram encontrados registros.',
 
 		'Could not find Data Source <code>%s</code>. If the Data Source was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		false,
+		'Não foi possível encontrar o Data Source <code>%s</code>. Se o Data Source for provido por uma Extensão, certifique-se que esteja instalada, e habilitada.',
 
 		'Edit' => 
 		'Editar',
@@ -871,31 +871,31 @@
 		false,
 
 		'Entry limit specified was not a valid type. String or Integer expected.' => 
-		false,
+		'Limite de registro não é um tipo válido. String ou Inteiro é esperado.',
 
 		'Could not find Event <code>%s</code>. If the Event was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		false,
+		'Não foi possível encontrar o Evento <code>%s</code>. Se o Evento for provido por uma Extensão, certifique-se que esteja instalada, e habilitada.',
 
 		'Could not %1$s %2$s, there was a problem loading the object. Check the driver class exists.' => 
 		false,
 
 		'Could not find extension at location %s' => 
-		false,
+		'Não foi possível encontrar extensão no local %s',
 
 		'Invalid element name. Must be valid QName.' => 
 		false,
 
 		'A field with that element name already exists. Please choose another.' => 
-		false,
+		'Um campo com este nome de elemento já existe. Por favor escolha outro.',
 
 		'\'%s\' is a required field.' => 
-		false,
+		'\'%s\' é um campo obrigatório.',
 
 		'Label' => 
-		false,
+		'Etiqueta',
 
 		'%s Make this a required field' => 
-		false,
+		'%s Fazer deste um campo obrigatório',
 
 		'%s Show column' => 
 		'%s Exibir coluna',
@@ -904,55 +904,55 @@
 		false,
 
 		'Main content' => 
-		false,
+		'Conteúdo principal',
 
 		'Sidebar' => 
-		false,
+		'Lateral',
 
 		'Formatting' => 
 		'Formatação',
 
 		'Validation Rule <i>Optional</i>' => 
-		false,
+		'Regra de validação <i>Opicional</i>',
 
 		'Data source output grouping is not supported by the <code>%s</code> field' => 
-		false,
+		'Agrupamento da saída do data source não é suportado pelo campo <code>%s</code>',
 
 		'Could not find Field <code>%1$s</code> at <code>%2$s</code>. If the Field was provided by an Extension, ensure that it is installed, and enabled.' => 
-		false,
+		'Não foi possível encontrar o Campo <code>%s</code>. Se o Campo for provido por uma Extensão, certifique-se que esteja instalada, e habilitada.',
 
 		'Forbidden' => 
-		false,
+		'Proibido',
 
 		'Please <a href="%s">login</a> to view this page.' => 
-		false,
+		'Por favor <a href="%s">acesse</a> para ver esta página.',
 
 		'Large' => 
-		false,
+		'Grande',
 
 		'Small' => 
-		false,
+		'Pequeno',
 
 		'Hot' => 
-		false,
+		'Quente',
 
 		'Cold' => 
-		false,
+		'Frio',
 
 		'Big' => 
-		false,
+		'Grande',
 
 		'Hairy' => 
-		false,
+		'Cabeludo',
 
 		'Round' => 
-		false,
+		'Redondo',
 
 		'Lumpy' => 
 		false,
 
 		'Coconut' => 
-		false,
+		'Coco',
 
 		'Encumbered' => 
 		false,
@@ -967,79 +967,79 @@
 		false,
 
 		'Birds' => 
-		false,
+		'Pássaros',
 
 		'Worms' => 
-		false,
+		'Minhocas',
 
 		'Bugs' => 
-		false,
+		'Insetos',
 
 		'Pigs' => 
-		false,
+		'Porcos',
 
 		'Monkeys' => 
-		false,
+		'Macacos',
 
 		'Pirates' => 
-		false,
+		'Piratas',
 
 		'Aardvarks' => 
 		false,
 
 		'Men' => 
-		false,
+		'Homem',
 
 		'Women' => 
-		false,
+		'Mulher',
 
 		'Unable to remove file - %s' => 
-		false,
+		'Incapaz de remover o arquivo - %s',
 
 		'MySQL Error (%1$s): %2$s in query "%3$s"' => 
 		false,
 
 		'Can\'t open file %s' => 
-		false,
+		'Não pôde abrir o arquivo %s',
 
 		'Could not find Text Formatter <code>%s</code>. If the Text Formatter was provided by an Extensions, ensure that it is installed, and enabled.' => 
-		false,
+		'Não foi possível encontrar o Formatador de Texto <code>%s</code>. Se o Formatador de Texto for provido por uma Extensão, certifique-se que esteja instalada, e habilitada.',
 
 		'No suitable XSLT processor was found.' => 
-		false,
+		'Processador XSLT compatível não foi encontrado.',
 
 		'No <code>/symphony</code> directory was found at this location. Please upload the contents of Symphony\'s install package here.' => 
-		false,
+		'Diretório <code>/symphony</code> não foi encontrado neste local. Por favor envie os arquivos do pacote de instalação do Symphony aqui.',
 
 		'Symphony does not have write permission to the existing <code>/workspace</code> directory. Please modify permission settings on this directory and its contents to allow this, such as with a recursive <code>chmod -R</code> command.' => 
-		false,
+		'Symphony não possui permissão de escrita no diretório <code>/workspace</code> existente. Por favor modifique a configuração de permissão neste diretório e em seu conteúdo para permitir isto, assim como o comando recursivo <code>chmod -R</code>',
 
 		'Symphony does not have write permission to the <code>/manifest</code> directory. Please modify permission settings on this directory and its contents to allow this, such as with a recursive <code>chmod -R</code> command.' => 
-		false,
+		'Symphony não possui permissão de escrita no diretório <code>/manifest</code>. Por favor modifique a configuração de permissão neste diretório e em seu conteúdo para permitir isto, assim como o comando recursivo <code>chmod -R</code>',
 
 		'Symphony does not have write permission to the root directory. Please modify permission settings on this directory. This is necessary only if you are not including a workspace, and can be reverted once installation is complete.' => 
-		false,
+		'Symphony não possui permissão de escrita no diretório raíz. Por favor modifique a configuração de permissão neste diretório. Isto é necessário apenas se você não estiver incluindo o workspace, e pode ser revertido uma vez que a instalação esteja completa.',
 
 		'Symphony does not have write permission to the temporary <code>htaccess</code> file. Please modify permission settings on this file so it can be written to, and renamed.' => 
-		false,
+		'Symphony não possui permissão de escrita no arquivo <code>htaccess</code> temporário. Por favor modifique a configuração de permissão neste arquivo e então ele poderá ser escrito, e renomeado.',
 
 		'Symphony does not have write permission to the <code>/symphony</code> directory. Please modify permission settings on this directory. This is necessary only during installation, and can be reverted once installation is complete.' => 
-		false,
+		'Symphony não possui permissão de escrita no diretório <code>/symphony</code>. Por favor modifique a configuração de permissão neste diretório. Isto é necessário apenas durante a instalação, e pode ser revertido uma vez que a instalação esteja completa.',
 
 		'There appears to be an existing <code>.htaccess</code> file in the Symphony install location. To avoid name clashes, you will need to delete or rename this file.' => 
-		false,
+		'Parece existir um arquivo <code>.htaccess</code> no local de instalação do Symphony. Para evitar conflitos, você precisa apagar ou renomear este arquivo.',
 
 		'There appears to be an existing <code>.htaccess</code> file in the <code>/symphony</code> directory.' => 
-		false,
+		'Parece existir um arquivo <code>.htaccess</code> no diretório <code>/symphony</code>.',
 
 		'Symphony was unable to connect to the specified database. You may need to modify host or port settings.' => 
-		false,
+		'Symphony foi incapaz de conectar no banco de dados especificado. Talvez você precise mudar as configurações de host ou da porta.',
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work. This requirement must be met before installation can proceed.' => 
-		false,
+		'Symphony requer <code>MySQL 4.1</code> ou mais recente para funcionar. Este requerimento precisa ser resolvido antes da instação poder prosseguir.',
 
 		'The table prefix <code><!-- TABLE-PREFIX --></code> is already in use. Please choose a different prefix to use with Symphony.' => 
-		false,
+		'O prefixo da tabela <code><!-- TABLE-PREFIX --></code> já está em uso. Por favor escolha um prefixo diferente para usar com o Symphony.',
 
 		'The password and confirmation did not match. Please retype your password.' => 
 		'A senha e sua confirmação são diferentes. Por favor, redigite sua senha.',
@@ -1057,16 +1057,16 @@
 		'Você precisa preencher com seu nome.',
 
 		'An existing <code>/workspace</code> directory was found at this location. Symphony will use this workspace.' => 
-		false,
+		'Um diretório <code>/workspace</code> existente foi encontrado neste local. Symphony irá usar este workspace.',
 
 		'Symphony requires <code>MySQL 4.1</code> or greater to work, however version <code>%s</code> was detected. This requirement must be met before installation can proceed.' => 
-		false,
+		'Symphony requer <code>MySQL 4.1</code> ou mais recente para funcionar, entretanto a versão <code>%s</code> foi detectada. Este requerimento precisa ser resolvido antes da instação poder prosseguir.',
 
 		'Website Name' => 
 		'Nome do Website',
 
 		'Environment Settings' => 
-		false,
+		'Configuração de ambiente',
 
 		'Symphony is ready to be installed at the following location.' => 
 		'Symphony está pronto para ser instalado na seguinte localização.',
@@ -1081,7 +1081,7 @@
 		'Data e Hora',
 
 		'Customise how Date and Time values are displayed throughout the Administration interface.' => 
-		false,
+		'Configure como os valores de Data e Hora são mostrados ',
 
 		'Region' => 
 		'Região',
@@ -1105,7 +1105,7 @@
 		'Configuração Avançada',
 
 		'Leave these fields unless you are sure they need to be changed.' => 
-		false,
+		'Deixe estes campos, a não ser que você tenha certeza de que precisam ser alterados.',
 
 		'Host' => 
 		'Servidor',
@@ -1120,13 +1120,13 @@
 		'Usar modo de compatibilidade',
 
 		'Symphony normally specifies UTF-8 character encoding for database entries. With compatibility mode enabled, Symphony will instead use the default character encoding of your database.' => 
-		false,
+		'Symphony normalmente especifica codificação de caracteres UTF-8 para registros de banco de dados. Com modo de compatibilidade habilitado, Symphony irá então usar a codificação de caracteres padrão do seu banco de dados.',
 
 		'Permission Settings' => 
-		false,
+		'Configurações de permissão',
 
 		'Symphony needs permission to read and write both files and directories.' => 
-		false,
+		'Symphony precisa de permissão de leitura e escrita tanto em arquivos quanto em diretórios.',
 
 		'Files' => 
 		'Arquivos',
